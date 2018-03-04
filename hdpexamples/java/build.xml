@@ -18,11 +18,12 @@
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/hdpexamples.jar" basedir="build/classes">
             <manifest>
-                <attribute name="Main-Class" value="com.cloudxlab.wordcount.StubDriver"/>
+                <attribute name="Main-Class" value="com.cloudxlab.maxtemp.StubDriver"/>
             </manifest>
         </jar>
     </target>
 
+   
 	<target name="hiveudfcompile">
         <mkdir dir="build/classes"/>
         <javac srcdir="src" destdir="build/classes" classpathref="classpath"/>
